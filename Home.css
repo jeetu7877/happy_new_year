@@ -165,3 +165,42 @@ body{
         text-shadow: 0 0 20px rgba(255, 0, 150, 1);
     }
 }
+
+.back-message h5{
+    font-size: 18px;
+    color: #ff007f;
+    font-weight: 600;
+    margin-top: 10px;
+    animation: blink 1.2s infinite;
+    cursor: pointer;
+    text-shadow: 0 0 8px rgba(255, 0, 128, 0.7);
+}
+
+/* Blinking Animation */
+@keyframes blink {
+    0%{ opacity:1; transform:scale(1); }
+    50%{ opacity:0.3; transform:scale(1.05); }
+    100%{ opacity:1; transform:scale(1); }
+}
+.play-btn {
+    margin-top: 20px;
+    background: #ff006e;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(255,0,120,0.7);
+    animation: pulse 1.4s infinite;
+}
+.play-btn:hover{
+    transform: scale(1.05);
+}
+
+@keyframes pulse {
+    0%{ box-shadow:0 0 8px rgba(255,0,120,0.5); }
+    50%{ box-shadow:0 0 18px rgba(255,0,120,1); }
+    100%{ box-shadow:0 0 8px rgba(255,0,120,0.5); }
+}
