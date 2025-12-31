@@ -3,7 +3,8 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:#752dd3;
+    background:#ffcee6; /* light pink */
+    /* background: linear-gradient(135deg, #ffd6e8, #ffb7d5, #ffcee6);  <-- gradient option */
     font-family:"Poppins",sans-serif;
     color:white;
 }
@@ -23,3 +24,4 @@ body{
     color:#ff2ea1;
     text-shadow:0 0 12px #ff77c6;
 }
+
