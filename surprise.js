@@ -1,3 +1,3 @@
 setTimeout(()=>{
-    window.location.href = "fireworks.html";
+    window.location.href = "Home.html";
 }, 3000);
