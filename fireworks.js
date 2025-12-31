@@ -93,5 +93,6 @@ animate();
 
 // After 6 sec go to main page
 setTimeout(()=>{
-    window.location.href = "Home.html";
+    window.location.href = "surprise.html";
 }, 6000);
+
