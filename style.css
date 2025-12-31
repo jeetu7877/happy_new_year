@@ -3,7 +3,7 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:#752dd3 url('https://i.imgur.com/E6opVvn.png') center/cover no-repeat;
+    background:#752dd3;
     font-family:"Poppins",sans-serif;
     color:white;
 }
