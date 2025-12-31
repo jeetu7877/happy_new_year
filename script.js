@@ -1,5 +1,5 @@
 // 🎯 New Year Target Date Set
-const targetDate = new Date("Dec 31, 2025 16:25:00").getTime();
+const targetDate = new Date("Jan 1, 2026 00:00:00").getTime();
 
 // Agle saal ke liye: "Jan 1, 2026 00:00:00"
 
@@ -31,5 +31,6 @@ let countdown = setInterval(()=>{
     }
 
 }, 1000);
+
 
 
