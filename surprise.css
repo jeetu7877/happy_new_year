@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#00d2ff,#3a7bd5);
+    font-family:"Poppins", sans-serif;
+}
+
+.surprise-box {
+    padding: 20px 40px;
+    border-radius: 25px;
+    background: linear-gradient(135deg,#00ff87,#60efff,#c850c0,#ffcc70);
+    background-size: 300% 300%;
+    animation: shift 2s infinite alternate;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 0 30px rgba(255,255,255,0.6);
+}
+@keyframes shift {
+    0%{background-position:0% 50%;}
+    100%{background-position:100% 50%;}
+}
