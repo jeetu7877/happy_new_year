@@ -88,3 +88,36 @@ function animate(){
   particles.forEach(p => {p.update(); p.draw();});
 }
 animate();
+
+
+
+let state = 0; // 0=front, 1=message, 2=shayari
+
+function changeCard(){
+    const card = document.getElementById("mainCard");
+    const msg = document.getElementById("messagePage");
+    const shy = document.getElementById("shayariPage");
+
+    state++;
+
+    if(state === 1){ // flip & show message
+        card.classList.add("flip");
+        msg.style.display = "block";
+        shy.style.display = "none";
+    }
+    else if(state === 2){ // stay flip & show shayari
+        card.classList.add("flip");
+        msg.style.display = "none";
+        shy.style.display = "block";
+    }
+    else{               // third click → reset to start
+        state = 0;
+        card.classList.remove("flip");
+        msg.style.display = "block";
+        shy.style.display = "none";
+    }
+}
+
+
+
+
