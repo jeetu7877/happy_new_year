@@ -121,3 +121,20 @@ function changeCard(){
 
 
 
+
+
+function playMusic(){
+    const music = document.getElementById("bgMusic");
+
+    music.muted = false;
+    music.play().catch(()=>{});
+
+    // Optional: Button text change after play
+    document.querySelector(".play-btn").innerText = "Playing... 💖";
+}
+
+
+
+
+
+
