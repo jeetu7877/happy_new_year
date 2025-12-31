@@ -3,7 +3,7 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:#ffcee6; /* light pink */
+    background:#df64b89c; /* light pink */
     /* background: linear-gradient(135deg, #ffd6e8, #ffb7d5, #ffcee6);  <-- gradient option */
     font-family:"Poppins",sans-serif;
     color:white;
@@ -12,16 +12,17 @@ body{
 .timer-container{
     text-align:center;
     padding:30px;
-    background:rgba(255,255,255,0.1);
+    background:rgba(226, 43, 211, 0.453);
     border-radius:20px;
     backdrop-filter:blur(6px);
-    box-shadow:0 0 25px rgba(255,0,200,0.5);
+    box-shadow:0 0 25px rgba(7, 98, 151, 0.5);
 }
 
 #timer{
     font-size:38px;
     font-weight:700;
-    color:#ff2ea1;
+    color:#dd3b7c;
     text-shadow:0 0 12px #ff77c6;
 }
+
 
